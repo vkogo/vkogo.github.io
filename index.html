@@ -9,7 +9,7 @@ color: #210042;
 font-size: 4em;
 }
 </style>
-
+<script src="js/clock1.js"></script>
 <script type="text/javascript">
 
 function send()
@@ -30,6 +30,10 @@ function send()
 		return false;
 	} 
 }
+</script>
+<script>
+window.onload = function() {
+setInterval(clockPainting , 1000); }
 </script>
 </HEAD>
 <BODY background='images/bg.jpg'>
